@@ -17,9 +17,6 @@ The Food Festival application that you created in this module's lessons did not 
 For this Challenge, however, you aren't using webpack, but you do have an Express.js server provided to you in the starter code. Remember that Chrome DevTools makes it possible to test service workers on localhost in development. Simply click the Application tab, then select Service Workers from the menu on the left.
 
 IMPORTANT
-You should add your idb.js file to the public/js/ directory of your application.
-
-You should add your service worker to the root of the public/ directory of your application.
 
 Once you’ve updated the existing budget tracker, it should provide the following functionality:
 
@@ -49,7 +46,8 @@ start_url
 display
 
 IMPORTANT
-In the module project, you used webpack to create the manifest.json file. For this application, you’ll need to create it manually and add it to the root of the public/ directory of your application. You can also review Module 19: Progressive Web Applications (PWA), Lesson 5: Convert the App to a PWA as a refresher on web manifests.
+In the module project, you used webpack to create the manifest.json file. For this application, you’ll need to create it manually and add it to the root of the public/ directory of your application. 
+You can also review Module 19: Progressive Web Applications (PWA), Lesson 5: Convert the App to a PWA as a refresher on web manifests.
 
 Deployment to Heroku Using MongoDB Atlas
 Finally, the budget tracker has a server and uses MongoDB as its database, so you’ll need to deploy this application to Heroku using MongoDB Atlas. To review this process, look at Module 18: NoSQL, Lesson 5: Add Mongoose Validation, specifically 18.5.5: Deploy to Heroku.
