@@ -1,7 +1,7 @@
 // create variable to hold db connection
 let db;
 // establish a connection to IndexedDB database and set it to version 1
-const request = indexedDB.open('budget_tracker', 1);
+const request = indexedDB.open('transaction_tracker', 1);
 
 // this event will emit if the database version changes (nonexistant to version 1, v1 to v2, etc.)
 request.onupgradeneeded = function(event) {
@@ -20,8 +20,7 @@ request.onsuccess = function(event) {
     if (navigator.onLine) {
       
        uploadTransaction();
-       alert('Transactions have been saved!');
-
+       
     }
   };
   
@@ -40,6 +39,7 @@ function saveRecord(record) {
   
     // add record to your store with add method
     transactionObjectStore.add(record);
+    alert('Your recent transaction has been saved to the Data Base!');
   }
   
 
