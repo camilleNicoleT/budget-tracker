@@ -39,7 +39,7 @@ function saveRecord(record) {
   
     // add record to your store with add method
     transactionObjectStore.add(record);
-    alert('Your recent transaction has been saved to the Data Base!');
+    alert('Your recent transaction has been saved to the offline database!');
   }
   
 
