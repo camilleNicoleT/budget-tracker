@@ -24,8 +24,7 @@ When the user reestablishes an internet connection, the deposits or expenses add
 No installation necessary simply click on the heroku deployed url.
 
 ## Uses
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling 
+User is able to track withdrawals and deposits with or without a data/internet connection so that their account balance is accurate even when traveling. 
 
 ## Questions
 For comments or questions contact me through GitHub. Username: https://github.com/camilleNicoleT
