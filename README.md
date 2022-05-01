@@ -1,7 +1,7 @@
 # Budget Tracker
 Heroku Deployment: https://limitless-castle-37461.herokuapp.com/
 
-Github Repo: 
+Github Repo: https://github.com/camilleNicoleT/budget-tracker.git
 
 AS AN avid traveler
 I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
