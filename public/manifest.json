@@ -45,7 +45,7 @@
     "short_name": "BudgTrack",
     "display": "standalone",
     "start_url": "../index.html",
-    "description": "An app that allows you to view track budget.",
+    "description": "An app that allows you to track your budget with additions and subtractions.",
     "background_color": "#01579b",
     "theme_color": "#12a4f2"
 }
